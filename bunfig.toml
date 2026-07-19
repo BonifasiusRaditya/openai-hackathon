@@ -1,0 +1,13 @@
+[install]
+# Use the exact versions from package.json
+exact = true
+
+[install.cache]
+# Where Bun stores its cache
+dir = ".bun/cache"
+
+# Add Next.js related settings
+[runtime]
+jsx_import_source = "react"
+jsx_factory = "React.createElement"
+jsx_fragment = "React.Fragment" 
